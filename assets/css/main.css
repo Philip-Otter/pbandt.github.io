@@ -3,3 +3,8 @@ body {
   background-repeat: repeat;
   background-position: bottom;
 }
+div.readBox {
+  margin: 30px;
+  background-color: #1c1c1c;
+  opacity: 0.6;
+}
