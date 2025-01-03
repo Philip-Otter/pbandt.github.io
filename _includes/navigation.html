@@ -1,4 +1,6 @@
 <nav>
-  <a href="/pbandt.github.io/">Home</a>
-  <a href="/pbandt.github.io/about.html">About</a>
+  {% for item in site.data.navigation %}
+  <a href = "/pbandt.github.io{{ item.link }}" {% if page.url == item.link %} style = "color: #86673b;" {% endif %}>
+    {{ item.name }}
+  </a>
 </nav>
