@@ -2,9 +2,10 @@ body {
   background-image: url("/pbandt.github.io/assets/images/1735868666860.jpg");
   background-repeat: repeat;
   background-position: bottom;
+  color: #18c62f;
 }
 div.readBox {
-  margin: 30px;
-  background-color: #1c1c1c;
+  margin: 5hw;
+  background-color: #080808;
   opacity: 0.6;
 }
