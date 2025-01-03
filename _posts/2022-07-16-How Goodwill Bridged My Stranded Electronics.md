@@ -1,3 +1,7 @@
+---
+layout: post
+author: The 2xdropout
+---
 A Legacy Blog Post From 2xdropout.xyz
 <br></br>
 So the other day I was looking through the electronics section of a Goodwill when an old wifi router caught my eye.
