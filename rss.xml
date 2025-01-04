@@ -1,0 +1,25 @@
+---
+title: RSS Feed
+---
+<?xml version="1.0"?>
+<rss version="2.0">
+  <channel>
+    <title>PB & T - Technology Blog</title>
+    <link>https://philip-otter.github.io/pbandt.github.io/</link>
+    <description>Technology blog hosted by The 2xdropout with articles by multiple authors</description>
+    <language>en-us</language>
+    <category>Technology</category>
+    <image>
+      <url>https://github.com/Philip-Otter/pbandt.github.io/blob/main/assets/images/1735868726321.jpg</url>
+      <title> PB & T - Favicon</title>
+      <link>https://philip-otter.github.io/pbandt.github.io/</link>
+    </image>
+    {% for post in site.posts limit:13 %}
+    <item>
+      <title>{{ post.title }}</title>
+      <link>https://philip-otter.github.io//pbandt.github.io{{ post.url }}</link>
+      <description>{{ post.excerpt | markdownify }}</description>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>
