@@ -11,3 +11,9 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Navigation Bar*/
+.navBar {
+  background-color: black;
+  overflow: hidden;
+}
