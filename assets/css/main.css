@@ -31,3 +31,10 @@ a:visited{ /* This is an attempt to not have all those ugly purple links everywh
   margin: 2vw;
   display: inline-block;
 }
+
+.navBar img {
+  margin: 2vw;
+  float: right;
+  max-height: 25px;
+  max-width: 25px;
+}
