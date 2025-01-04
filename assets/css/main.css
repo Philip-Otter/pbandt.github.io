@@ -12,11 +12,15 @@ img {
   margin-right: auto;
 }
 
+a:visited{ /* This is an attempt to not have all those ugly purple links everywhere */
+  color: #18c62f;  
+}
+
 /* Navigation Bar*/
 .navBar {
-  background-color: black;
+  background-color: gray;
   overflow: hidden;
-  margin: 5vw;
+  margin: 2vw 5vw;
 }
 
 .navBar a{
