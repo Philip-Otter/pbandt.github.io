@@ -18,6 +18,7 @@ title: RSS Feed
     {% for post in site.posts limit:13 %}
     <item>
       <title>{{ post.title }}</title>
+      <pubDate>{{ post.date |  date_to_string }}</pubDate>
       <link>https://philip-otter.github.io//pbandt.github.io{{ post.url }}</link>
       <description>{{ post.excerpt | markdownify }}</description>
     </item>
