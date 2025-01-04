@@ -18,7 +18,7 @@ a:visited{ /* This is an attempt to not have all those ugly purple links everywh
 
 /* Navigation Bar*/
 .navBar {
-  background-color: gray;
+  background-color: #595959;
   overflow: hidden;
   margin: 2vw 5vw;
 }
