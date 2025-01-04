@@ -1,4 +1,5 @@
 ---
+layout: default
 handle: The 2xdropout
 name: Philip Otter
 linkedin: https://www.linkedin.com/in/philip-otter-a782a7152/
