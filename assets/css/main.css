@@ -16,4 +16,10 @@ img {
 .navBar {
   background-color: black;
   overflow: hidden;
+  margin: 5vw;
+}
+
+.navBar a{
+  margin: 2vw;
+  display: inline-block;
 }
