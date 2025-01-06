@@ -40,3 +40,7 @@ a:visited{ /* This is an attempt to not have all those ugly purple links everywh
   margin-left: 5vw;
   margin-right: 5vw;
 }
+
+.readBox h1{
+  text-align: center;
+}
