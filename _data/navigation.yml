@@ -4,3 +4,5 @@
   link: /about.html
 - name: Authors
   link: /authors.html
+- name: Feed
+  link: /rss.xml
