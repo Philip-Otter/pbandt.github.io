@@ -33,9 +33,10 @@ a:visited{ /* This is an attempt to not have all those ugly purple links everywh
   display: inline-block;
 }
 
-.navBar img {
-  margin: 2vw;
-  float: right;
-  max-height: 2vh;
-  max-width: 2vh;
+/* Main Content Location */
+.readBox {
+  display: block;
+  background-color: black;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
