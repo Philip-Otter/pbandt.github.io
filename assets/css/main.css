@@ -2,7 +2,8 @@ body {
   background-image: url("/pbandt.github.io/assets/images/1735868666860.jpg");
   background-repeat: repeat;
   background-position: bottom;
-  color: #18c62f;
+  color: #66FF66;
+  text-shadow: 0 0 10px #66FF66;
 }
 img {
   width: 100%;
@@ -13,16 +14,16 @@ img {
 }
 
 a {
-  color: #18c62f;
+  color: #66FF66;
 }
 
 a:visited{ /* This is an attempt to not have all those ugly purple links everywhere */
-  color: #18c62f;  
+  color: #66FF66;  
 }
 
 /* Navigation Bar*/
 .navBar {
-  background-color: #595959;
+  background-color: #282828;
   overflow: hidden;
   margin: 2vw 5vw;
   max-height: 8vh;
@@ -36,9 +37,10 @@ a:visited{ /* This is an attempt to not have all those ugly purple links everywh
 /* Main Content Location */
 .readBox {
   display: block;
-  background-color: black;
+  background-color: #282828;
   margin-left: 5vw;
   margin-right: 5vw;
+  padding: .5vw;
 }
 
 .readBox h1{
