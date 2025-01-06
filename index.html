@@ -7,7 +7,7 @@ title: Blog
 <ul>
   {% for post in site.posts %}
     <li>
-      <h2><a href="/pbandt.github.io{{ post.url }}">{{ post.title }} - {{ post.date |  date_to_string }}</a></h2>
+      <h2><a href="/pbandt.github.io{{ post.url }}">{{ post.title }} [{{ post.date |  date_to_string }}] - {{post.author}}</a></h2>
       {{ post.excerpt | markdownify }}
     </li>
   {% endfor %}
