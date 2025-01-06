@@ -47,3 +47,8 @@ a:visited{ /* This is an attempt to not have all those ugly purple links everywh
   text-align: center;
   padding: 2vw;
 }
+
+.readBox p{
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
