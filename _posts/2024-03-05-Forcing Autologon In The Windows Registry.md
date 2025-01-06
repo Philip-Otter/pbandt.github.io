@@ -1,3 +1,7 @@
+---
+layout: post
+author: The 2xdropout
+---
 When using [Sysinternals Autologon](https://learn.microsoft.com/en-us/sysinternals/downloads/autologon) you may encounter a scenario in which you would like to prevent the end user from switching users or logging out of the Autologon account without jumping through some 
 additional hoops.
 
