@@ -71,4 +71,5 @@ a:visited{ /* This is an attempt to not have all those ugly purple links everywh
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  padding: 2vw;
 }
