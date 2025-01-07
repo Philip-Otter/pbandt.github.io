@@ -6,9 +6,10 @@ layout: default
 
 {{ content }}
 
-<p style = "text-align: Center; color: orange;">Liked what you read? why not check out {{ page.author}}'s author page?</p>
+<p style = "text-align: Center; color: orange;">Liked what you read? why not check out {{ page.author}}'s author page?
 {% for author in site.authors %}
   {% if page.author == author.handle %}
-  {{ author.url }}
+  <a href="https://philip-otter.github.io/pbandt.github.io/{{ author.url }}">Take me to it!</a>
   {% endif %}
 {% endfor %}
+</p>
