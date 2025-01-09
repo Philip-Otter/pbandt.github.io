@@ -57,6 +57,11 @@ a:visited{ /* This is an attempt to not have all those ugly purple links everywh
   color: orange;
 }
 
+.readBox iframe{
+  display: block;
+  margin: auto;
+}
+  
 /* Author Pages*/
 .authorBody {
   text-align: center;
