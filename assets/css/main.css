@@ -3,7 +3,6 @@ body {
   background-repeat: repeat;
   background-position: bottom;
   color: #66FF66;
-  text-shadow: 0 0 10px #66FF66;
 }
 img {
   width: 100%;
@@ -15,6 +14,10 @@ img {
 
 a {
   color: #66FF66;
+}
+
+a:hover{
+  text-shadow: 0 0 10px #66FF66;
 }
 
 a:visited{ /* This is an attempt to not have all those ugly purple links everywhere */
